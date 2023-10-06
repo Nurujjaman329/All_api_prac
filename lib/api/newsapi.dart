@@ -61,7 +61,7 @@ class _NewsapipractiseState extends State<Newsapipractise> {
                 });
           }
           else {
-            return const Text("Loading");
+            return const Text("Waiting");
           }
         },
 
