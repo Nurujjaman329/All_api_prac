@@ -19,7 +19,7 @@ class Newsapipractise extends StatefulWidget {
 
 class _NewsapipractiseState extends State<Newsapipractise> {
 
-
+ // Api data collect
   Future<Newsapi> getapi() async {
     final response = await http.get(Uri.parse("https://newsapi.org/v2/everything?q=tesla&from=2023-09-03&sortBy=publishedAt&apiKey=7d295814715d4a13a323d58a16e5a863"));
 
