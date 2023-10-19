@@ -37,7 +37,7 @@ class _NewsapipractiseState extends State<Newsapipractise> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("NewsApi"),
+        title: const Text("NewsApi_Practise"),
       ),
 
       body: FutureBuilder<Newsapi>(
